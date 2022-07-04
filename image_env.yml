@@ -1,0 +1,27 @@
+name: image_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - scikit-image
+  - pandas
+  - ipyvolume
+  - pip
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - ipywidgets
+  - pyimagej
+  - openjdk=8
+  - plotnine
+  - seaborn
+  - pystackreg
+  - nbconvert=5.4.1
+  - pip:
+    - napari
+    - trackpy
+    - tqdm
+    - mrc
+    - aicsimageio
+    - xlrd
