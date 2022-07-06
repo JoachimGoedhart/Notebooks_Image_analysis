@@ -17,17 +17,17 @@ This notebook deals with spectral unmixing. It uses synthetic data and arbitrary
 
 ## Python environment
 
-The 'image_env.yml' file can be used to setup the right python environment. use:
+The 'image_env.yml' file can be used to setup the right python environment. In the terminal use:
 
-conda env create -f image_env.yml
+`conda env create -f image_env.yml`
 
 To activate the environment:
 
-conda activate image_env
+`conda activate image_env`
 
 To list the packages that are in the environment:
 
-conda list --name image_env
+`conda list --name image_env`
 
 #### Issues/feedback
 In case of feedback or questions you can:
